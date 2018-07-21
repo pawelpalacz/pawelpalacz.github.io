@@ -1,0 +1,46 @@
+/**selektor uniwersalny - lapie wszystkie elementy na stronie*/
+
+* {
+    color: red;
+}
+
+/*selektor laczony (bez spacji) lapie element o dwuch podanych przez nas argumentach, np. */
+
+/*paragraf o klasie green*/
+
+p.green {
+    color: green;
+}
+
+/*pseudoelementy*/
+
+p::before {
+    content: "*";
+    color: red;
+}
+
+/*hover - najazd myszką*/
+
+a:hover {
+    color: yellowgreen;
+}
+
+/*:focus - aktywne pole formularza*/
+
+input:focus {
+    border: 5px solid blue;
+}
+
+ul .list-item:first-child {
+    color: grey;
+}
+
+ul .list-item:nth-of-type(even){
+    color:aqua;
+}
+
+
+
+
+
+
